@@ -12,7 +12,7 @@ window.addEventListener('load',()=>{
 
         }
         break
-        case /opera/gi.test(browserAgent):{
+        case /opr/gi.test(browserAgent):{
             let target=document.querySelector('.opera')
             target.style.opacity='100%'
 
